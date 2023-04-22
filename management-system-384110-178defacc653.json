@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "management-system-384110",
+  "private_key_id": "178defacc6539419839019c8cf02ceda0f9b0698",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2CI8+4eRJdu6E\n8+LsfuFPaZIk7xjBfdEn/zREqBpw1zrJzahdiRm/dIgxhEqG/RDmwKOHzV6JauK+\n02tVqAk/3Whlc4zZqFVN344LZvgfiUNdLhWp6VS+VpnrsRfdA/uPXKAkxYKjT/3y\nn3PSVI9HV2C8qp8TIzKDeLHShAqJurGvQEtal55vUM0H6B7z7TdxpN90yS0KpgEn\naycWsIywR7TtwIJwx5S/vRE3cv7b8r1tFL0kvJ3atJ18EbnZC6oOau0QXz6Q11Eh\nXmyDJJitEhYbYX3+wfBsYiDNwFbgte43240horxuB0sXkE6BNG6Y6qwm7sSjmEdj\n4hPKgD2TAgMBAAECggEAUpkQsqZaaXFjaoWl1sz93IRZUZQCZi36fY0iAPNMSB6J\naO9+Ma8XtVWhxOIz1Qu4oxQPP/xSpMUQzSjuv8fHJqkHCV3EsDDfQD4r3IWlGd41\naG8UWmxrTRDLt/Q8EUgQ2izb58ONcyBFaVWr/ujquKLv3LwJAWyLq7dU7OKIS5Tb\nux/cKhWMWgtTb2tZjA7sWZQwgA4LBtVqnYG4MHzhngGI7siu47L7d0iuuA8Z2zPB\nGMvNHaL1zPddQQfK1w5aYBicrOiKRncxwYfZO8kui5dYq4YoSdQCMTawG6XW5u9t\n7BOHBEC/YiZrNu2ImxIyfD/TMwPuGJBbbm1pbRNpqQKBgQDvgs4OHithbR7SdV3u\nKdwpRQ5A66oniCpvOIQ2gi66AseF/LZREJ2tZSPM7Y02qGd7+9/Dm3kgzCeqHi2T\nIzagAO29V+zxhu+AWtRaV3+8NV6CVxOcjShrJ5aVjG9RfQSPs7i5bX830jKXAGgM\nyf1CWAoHMR+TVcgHBCFoxTXkWQKBgQDCkMIDXn1f2NZzo2A6W8+86sHyK8OitqbT\nH3k86UsO3bvVUprk8vAo46s2I2SBrBt3Hv6/44q/ScbYppP5v6GouT/D/dbK431Z\nr4tyMuxf8f4icqX1GyYjd9hw9zji4RaI+40ujYA0zZLK3bE7q+fKvCjR33ka5DCg\nHN+PvWwjywKBgBBpq0smYBymCKWta0llzvN5CvgB7kAVQasreUvu8drHU/rnjWrS\ns6ttMd3aLYIgWi8R3Iyf+9X2h4VN2huqHxUp2yDNhKwsbf8iukiSlGtGUPqnku14\nctuc8+G9pOc1pPlf/HmgekZN/i+A1KCDuvov5EgH4r0K9NEeRFfUo9PJAoGAO5Ja\n9PEfbhNURf/F3NhzmKJAU8e2lMFb/tRqKI49nwWhF0W9i1Ae3EYpC+B2S4XIuwZQ\ndaxTtRH/wiHuuM9FzgU6UuYLt/9DSAyJo6OX4CCV8TItQgjX+pAdQylOz5ifb72l\nkpVcpc4znc2XEHAn/ljyHqBP0j3/7WYpxTb4P1UCgYEAl5lnCWUlvvWcwf5GUBe3\ncmxWQ2GWtLWLdGVjWOLm/hW3FHR+jsd6rIvGpOowmFSe2Uv1vuXnBLwPcHhXbBPA\nxtajWQA1PvWFdwkoBlAKLSDLS/hw7uW/dPzg7NzBF3HhgzMdZE9krJQVyL5CDI+N\nVA2WtQn2/lR4l1uC2DjcF1M=\n-----END PRIVATE KEY-----\n",
+  "client_email": "entorno-management-system@management-system-384110.iam.gserviceaccount.com",
+  "client_id": "101690432782994161024",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/entorno-management-system%40management-system-384110.iam.gserviceaccount.com"
+}

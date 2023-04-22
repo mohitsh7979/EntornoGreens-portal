@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'main_app',
     'event_app',
     'active_link',
+    'database_app',
 ]
 
 MIDDLEWARE = [
