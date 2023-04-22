@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="pagetitle">
+    <h1>Resources</h1>
+    <nav>
+<nav>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'manager_home' %}">Home</a></li>
+        <li class="breadcrumb-item active">Resources</li>
+    </ol>
+</nav>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Resources</h5>
+        {% if message %}
+        <p>{{ message }}</p>
+        {% endif %}
+        <!-- Multi Columns Form -->
+            {% csrf_token %}
+
+<table class="table table-bordered border-primary">
+    <thead>
+      <tr>
+        <th scope="col">Resource</th>
+        <th scope="col">Download Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Price List - Hybrid Vegetable</td>
+        <td><button type="button" class="btn btn-primary">Download</button></td>
+      </tr>
+      <tr>
+        <td>Price List - OP Vegetable</td>
+        <td><button type="button" class="btn btn-primary">Download</button></td>
+      </tr>
+      <tr>
+        <td>Catalogue 2023</td>
+        <td><button type="button" class="btn btn-primary">Download</button></td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <!-- End Primary Color Bordered Table -->
+  {% endblock %}

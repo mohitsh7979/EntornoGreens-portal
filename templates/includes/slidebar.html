@@ -1,0 +1,79 @@
+{% load static %}
+{% load active_link_tags %}
+<!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+        <li class="{% active_link 'manager_home' 'active' %}">
+            <a class="nav-link " href="{% url 'manager_home' %}">
+                <i class="bi bi-grid"></i>
+                <span>Dashboard</span>
+            </a>
+        </li>
+        <!-- End Dashboard Nav -->
+
+        <li class="{% active_link 'add_data' 'active' %}">
+            <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="{% url 'manager_home' %}">
+                <i class="bx bxs-folder-plus"></i><span>Entorno Database</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="{% url 'add_data' %}">
+                        <i class="bi bi-circle"></i><span>Add List</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'view_data' %}">
+                        <i class="bi bi-circle"></i><span>View List</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </li>
+        <!-- End Farmer Nav -->
+
+    
+        <li class="{% active_link 'add_event' 'active' %}">
+            <a class="nav-link collapsed" href="{% url 'add_event' %}">
+                <i class="bx bxs-calendar-alt"></i>
+                <span>Events Database</span>
+            </a>
+
+    
+        <!-- End Events Nav -->
+
+        <li class="{% active_link 'manager_resources' 'active' %}">
+            <a class="nav-link collapsed" href="{% url 'manager_resources' %}">
+                <i class="bx bxs-calendar-alt"></i>
+                <span>Resources</span>
+            </a>
+          
+        <!-- End Orders Nav -->
+
+       
+
+
+
+        <li class="{% active_link 'profile' 'active' %}">Profile Section</li>
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="{% url 'profile' %}">
+                <i class="bi bi-person"></i>
+                <span>Profile</span>
+            </a>
+        </li>
+        <!-- End Profile Page Nav -->
+
+
+        <li class="{% active_link 'logout' 'active' %}">
+            <a class="nav-link collapsed" href="{% url 'logout' %}">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Logout</span>
+            </a>
+        </li>
+        <!-- End Login Page Nav -->
+    </ul>
+
+</aside>
+<!-- End Sidebar-->

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Create Event</h1>
+    <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Create</button>
+</form>
+
+        <div class="col-md-12">
+            <label for="date" class="form-label">Date</label>
+            <input type="date" class="form-control" id="date" required>
+        </div>
+        <div class="col-md-12">
+            <label for="heading" class="form-label">Heading</label>
+            <input type="text" class="form-control" id="heading" required>
+        </div>
+
+        <div class="col-md-12">
+            <label for="description" class="form-label">Discription</label>
+            <input type="text" class="form-control" id="description" required>
+        </div>
+
+        <div class="col-md-12">
+            <label for="location" class="form-label">Location</label>
+            <input type="text" class="form-control" id="location" required>
+        </div>
+
+
+        <div class="col-md-4">
+            <label for="imageLink" class="form-label">Image Link</label>
+            <input type="link" class="form-control" id="imageLink" required>
+        </div>
+
+
+    </form>
+{% endblock %}

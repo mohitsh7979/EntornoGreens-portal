@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<div class="pagetitle">
+    <h1>Entorno Database</h1>
+    <nav>
+<nav>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'manager_home' %}">Home</a></li>
+        <li class="breadcrumb-item active">Entorno  Database</li>
+        <li class="breadcrumb-item active">View Data</li>
+    </ol>
+</nav>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Data View</h5>
+        {% if message %}
+        <p>{{ message }}</p>
+        {% endif %}
+        <!-- Multi Columns Form -->
+        <form method="post" class="row g-3">
+            {% csrf_token %}
+
+                            <!-- Table with stripped rows -->
+                            <table class="table datatable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Category</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Phone Number</th>
+                                        <th scope="col">Address</th>
+                                        <th scope="col">Postal/Zip Code</th>
+                                        <th scope="col">State</th>
+                                        <th scope="col">District</th>
+                                        <th scope="col">City</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Seed Dealer</td>
+                                        <td>Ankit</td>
+                                        <td>9982210445</td>
+                                        <td>jaipur</td>
+                                        <td>302039</td>
+                                        <td>Rajasthan</td>
+                                        <td>Jaipur</td>
+                                        <td>Jaipur</td>
+                    
+                                    </tr>
+                                </tbody>
+
+                                
+                            </table>
+                            <!-- End Table with stripped rows -->
+                        </form>
+                </div>
+            </div>
+
+{% endblock%}
